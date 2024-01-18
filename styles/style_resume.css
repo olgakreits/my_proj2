@@ -1,0 +1,117 @@
+* {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+body {  
+    display: flex;
+    justify-content: center;
+	padding: 0px; 
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    color: rgb(126, 126, 126);
+	}  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+	margin: 0px;  
+	}  
+
+/* 1 section */
+.wrapper{
+    display: flex;
+    width: 1024px;
+    min-height: 1024px;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.logo{
+    font-family: 'Lemon', serif;
+    font-size: 20pt;
+    color: blueviolet;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14pt;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.title_red{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.title_red_mini{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title_black{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    margin: 40px 0;
+}
+.bold{
+    font-weight: bold;
+}
+.resume{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section{
+    width: 100%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 40px 0;
+}
+.left{
+    width: 30%;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    margin-right: 60px;
+    background-color: white;
+    border-radius: 5px;
+}
+.right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
+
